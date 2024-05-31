@@ -1,13 +1,14 @@
 import requests
 import json
 from prompts import FactPrompts
+from config import *
 
 def get_response_from_cg(topic):
     cg_prompt=FactPrompts.general_facts_english
     cg_prompt=str(cg_prompt)
     cg_prompt=cg_prompt.format(topic=topic)
 
-    api_key="sk-proj-tfeQKNKVUUQrNFgXLf1KT3BlbkFJi3LNMrHdHxqI5nscB4XH"
+    api_key=OPENAI_API_KEY
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",

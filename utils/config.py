@@ -5,5 +5,5 @@ AZURE_SPEECH_REGION: str = "" # Please get yours from Azure portal
 AZURE_ARIA: str = "en-US-AriaNeural"
 AZURE_ARIA1: str = "hi-IN-MadhurNeural"
 AZURE_US_FEMALE_MODEL: str = "en-US-SwaraNeural" # Feel free to change the voice model as per your preference
-
+OPENAI_API_KEY="" # Please get yours from OPENAI website
 
