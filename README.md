@@ -35,6 +35,12 @@ Install dependencies
   pip install -r requirements.txt
 ```
 
+Install ImageMagick (Required by Moviepy to process text/image manipulation)
+
+```bash
+  https://imagemagick.org/script/download.php#windows
+```
+
 Start the Engine
 
 ```bash
