@@ -1,7 +1,7 @@
 
 # Youtube Shorts Creator
 
-Creating Famous Youtube Shorts Videos using Code.
+Automating the creation of famous Youtube Shorts Videos (Reels) using Python.
 
 Follow the steps to run engine on your system.
 
