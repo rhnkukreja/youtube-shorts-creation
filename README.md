@@ -1,7 +1,7 @@
 
 # Youtube Shorts Creator
 
-Automating the creation of famous Youtube Shorts Videos (Reels) using Python.
+Creating Famous Youtube Shorts Videos using Code.
 
 Follow the steps to run engine on your system.
 
@@ -20,13 +20,26 @@ To run this project, you will need to activate the following API keys and add th
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/rhnkukreja/youtube-shorts-creation.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd youtube-shorts-creation
+```
+
+
+create a virtual environment
+
+```bash
+  python -m venv my-venv
+```
+
+activate the virtual environment
+
+```bash
+  my-venv\Scripts\activate
 ```
 
 Install dependencies
